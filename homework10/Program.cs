@@ -134,6 +134,7 @@ namespace homework10
             string outputFile = $"{Directory.GetCurrentDirectory()}..\\..\\..\\resourses\\{nameNDate}.txt";
 
             events[events.Count - 1].WriteEventToFile(outputFile);
+            Console.WriteLine($"Информация записана в файл {nameNDate}");
         }
 
         /// <summary>
