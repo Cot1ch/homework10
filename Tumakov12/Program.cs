@@ -10,6 +10,9 @@ namespace Tumakov12
             Task2();
             Task3();
             Task4();
+
+            Console.WriteLine("Пресс кнопочку пжалста");
+            Console.ReadKey();
         }
 
         /// <summary>

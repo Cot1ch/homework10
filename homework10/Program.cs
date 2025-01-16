@@ -15,7 +15,8 @@ namespace homework10
             Task1();
             Task2();
 
-
+            Console.WriteLine("Пресс кнопочку пжалста");
+            Console.ReadKey();
         }
 
         /// <summary>
