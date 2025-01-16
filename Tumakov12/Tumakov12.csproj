@@ -46,6 +46,7 @@
     <Compile Include="classes\BankAccount.cs" />
     <Compile Include="classes\Book.cs" />
     <Compile Include="classes\Complex.cs" />
+    <Compile Include="classes\Library.cs" />
     <Compile Include="classes\Ratio.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
