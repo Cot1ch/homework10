@@ -116,10 +116,19 @@ namespace Tumakov12
             return $" Номер счёта: {Id}\nТип: {account}\nБаланс{_Balance}";
         }
 
+        /// <summary>
+        /// Оператор проверки на равенство
+        /// </summary>
+        /// <returns>Булево значение</returns>
         public static bool operator ==(BankAccount bankAcc1, BankAccount bankAcc2)
         {
             return bankAcc1.Equals(bankAcc2);
         }
+
+        /// <summary>
+        /// Оператор проверки на неравенство
+        /// </summary>
+        /// <returns>Булево значение</returns>
         public static bool operator !=(BankAccount bankAcc1, BankAccount bankAcc2)
         {
             return !bankAcc1.Equals(bankAcc2);

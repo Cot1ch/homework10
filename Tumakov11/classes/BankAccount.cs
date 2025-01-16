@@ -67,9 +67,9 @@ namespace Tumakov11
         }
 
         /// <summary>
-        /// 
+        /// Метод перевода (вычитания с одного и прибавления на другой) денег между счетами
         /// </summary>
-        /// <returns></returns>
+        /// <returns> Булево значение</returns>
         public bool MoneyTransfer(BankAccount bankAccount, decimal moneyy)
         {
             if (Remove(moneyy))

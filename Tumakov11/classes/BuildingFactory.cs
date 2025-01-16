@@ -41,7 +41,7 @@ namespace Tumakov11
         }
 
         /// <summary>
-        /// 
+        /// Метод удаляет объект по его номеру и возвращает успешность операции 
         /// </summary>
         /// <returns>Булево значение</returns>
         public static bool DeleteBuilding(ulong num)
